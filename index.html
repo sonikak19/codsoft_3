@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeevini Travels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">SJT</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#tours">Tours</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+            <button class="cta-button">Book Your Adventure</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore the World with Our Curated Tours and Unforgettable Experiences</p>
+            <input type="text" placeholder="Where would you like to go?" id="search-destination">
+            <button onclick="searchTours()">Find Tours</button>
+        </div>
+    </section>
+
+    <!-- Featured Tours Section -->
+    <section class="featured-tours" id="tours">
+        <div class="container">
+            <h2>Featured Tours</h2>
+            <div class="tour-card">
+                <img src="nick-fewings-zVWX7IzssLw-unsplash.jpg" alt="Tour 1">
+                <h3>Tour to Tamil Nadu</h3>
+                <p>Experience Tamil Nadu with a guided tour through the city.</p>
+                <p class="price">Rs 2,00,000</p>
+                <button>Learn More</button>
+            </div>
+            <div class="tour-card">
+                <img src="keith-luke-sPU2kzPIf28-unsplash.jpg" alt="Tour 2">
+                <h3>Beach Getaway</h3>
+                <p>Relax on the sandy beaches with our all-inclusive package.</p>
+                <p class="price">Rs 50,000</p>
+                <button>Learn More</button>
+            </div>
+            <div class="tour-card">
+                <img src="nathan-dumlao-4T6jS89NqgQ-unsplash.jpg" alt="Tour 3">
+                <h3>Mountain Adventure</h3>
+                <p>Explore breathtaking mountain trails and scenic views.</p>
+                <p class="price">Rs. 79,000</p>
+                <button>Learn More</button>
+            </div>
+            <button class="cta-button">View All Tours</button>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us" id="about">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="feature">
+                <h3>Expert Guides</h3>
+                <p>Our experienced guides ensure you get the most out of every destination.</p>
+            </div>
+            <div class="feature">
+                <h3>Tailored Experiences</h3>
+                <p>Customizable tours to fit your interests and needs.</p>
+            </div>
+            <div class="feature">
+                <h3>Best Price Guarantee</h3>
+                <p>Competitive prices and value for money.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="contact">
+        <div class="container">
+            <h2>What Our Travelers Say</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial">
+                    <img src="ryan-baker-2_Ip8Tfi8jM-unsplash.jpg" alt="User 1">
+                    <p>"The trip was fantastic! Everything was perfectly organized and we had a great time."</p>
+                    <p><strong>Priyanka Verma</strong></p>
+                </div>
+                <div class="testimonial">
+                    <img src="pedro-lastra-br-Xdb9KE0Q-unsplash.jpg" alt="User 2">
+                    <p>"Amazing experience. The guide was knowledgeable and the sights were breathtaking."</p>
+                    <p><strong>Atharva Deshpande</strong></p>
+                </div>
+                <div class="testimonial">
+                    <img src="shashank-verma-7OkRufbtKik-unsplash.jpg" alt="User 3">
+                    <p>"A well-organized tour with plenty of activities and relaxation time."</p>
+                    <p><strong>Sreeja</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Explore?</h2>
+            <p>Start planning your next journey with us today.</p>
+            <button class="cta-button">Book Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="newsletter">
+                <p>Subscribe to our newsletter for the latest offers and travel tips:</p>
+                <input type="email" placeholder="Your email address">
+                <button>Subscribe</button>
+            </div>
+            <div class="contact-info">
+                <p>Phone: +1234567890</p>
+                <p>Email: info@sjtravels.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
